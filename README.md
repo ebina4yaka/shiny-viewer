@@ -9,6 +9,9 @@ shiny-viewerは©BANDAI NAMCO Entertainment Inc.が配信している
 <a href="https://shinycolors.idolmaster.jp/" target="_blank">アイドルマスター シャイニーカラーズ(THE IDOLM@STER SHINY COLORS)</a>用Electron製Viewerアプリです。  
 
 ### Download
+[リリースページ](https://github.com/ebina4yaka/shiny-viewer/releases)から  
+"shiny-viewer-Setup-x.x.x.exe"をダウンロードし、インストールしてください。  
+※"shiny-viewer-x.x.x.dmg"はmacOS向けビルドですが動作環境がないため未検証です。
 
 ### Build
 ```bash
