@@ -10,6 +10,7 @@
     "url": "https://github.com/ebina4yaka/shiny-viewer/issues"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "lint": "eslint src/**/*.js --fix",
     "start": "electron .",
     "build": "electron-builder",
