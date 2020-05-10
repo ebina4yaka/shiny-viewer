@@ -13,8 +13,8 @@
     "precommit": "lint-staged",
     "lint": "eslint src/**/*.js --fix",
     "start": "electron .",
-    "build": "electron-builder",
-    "build:win": "electron-builder --win --x64"
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac --x64"
   },
   "pre-commit": [
     "lint-staged"
@@ -42,6 +42,19 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
+    },
+    "linux": {
+      "icon": "assets/linux/icon.png",
+      "target": [
+        "deb",
+        "rpm"
+      ]
+    },
+    "mac": {
+      "icon": "assets/mac/icon.icns",
+      "target": [
+        "dmg"
+      ]
     }
   },
   "devDependencies": {
