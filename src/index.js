@@ -3,13 +3,13 @@ const initWindowMenu = require('./menu.js')
 
 const createWindow = () => {
   const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36'
-  const height = 1136
-  const width = 640
+  const width = 1136
+  const height = 640
   const window = new BrowserWindow({
-    width: height,
-    minWidth: height,
-    height: width,
-    minHeight: width + 20,
+    width: width,
+    minWidth: width,
+    height: height,
+    minHeight: height + 20,
     useContentSize: true
   })
 
